@@ -1,5 +1,8 @@
 # NodeJS Microservices Application with CI/CD Pipeline for Managed K8s Cluster on DigitalOcean
 
+## Deployed Link on Digital Ocean
+[Microservices_NodeJS](http://www.ticket-to-anywhere.xyz/)
+
 ## About the repo
 This repo contains a nodejs microservices application with fully automated CI/CD pipeline built using Github Actions.
 The purpose of this repo is to demo the Deployment Pipeline to show how a microservice is deployed to a managed kubernetes cluster on digital ocean.
