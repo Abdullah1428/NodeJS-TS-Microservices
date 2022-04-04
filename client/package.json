@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
+    "dev": "cross-env NODE_OPTIONS='--openssl-legacy-provider' next dev"
   },
   "keywords": [],
   "author": "",
@@ -12,6 +12,7 @@
   "dependencies": {
     "axios": "^0.19.2",
     "bootstrap": "^4.4.1",
+    "cross-env": "^7.0.3",
     "next": "^9.3.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
