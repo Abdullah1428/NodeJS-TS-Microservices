@@ -3,6 +3,12 @@
 ## Deployed Link on Digital Ocean
 [Microservices_NodeJS](http://www.ticket-to-anywhere.xyz/)
 
+## Architecture Diagrams.
+The following file contains different diagrams that describes different parts of the project during the development and deployment stage.
+There is also diagrams about CI/CD workflow for this project.
+
+[Architecture Diagrams](https://app.diagrams.net/#G1zbVLeuJBzLkjUENh1qGo0J9elCoDk8Ug)
+
 ## About the repo
 This repo contains a nodejs microservices application with fully automated CI/CD pipeline built using Github Actions.
 The purpose of this repo is to demo the Deployment Pipeline to show how a microservice is deployed to a managed kubernetes cluster on digital ocean.
@@ -100,3 +106,10 @@ git push remote "your_branch_name"
 ```
 - Go to your repo and create a Pull Request for your newly commited code. This will trigger the CI part where the tests for the microservice that you changed will be ran.
 - After the test passes, you can merge the pull request into master which will trigger the CD part which will deploy the changed serivce to the cluster.
+
+## References
+
+- [Github Actions](https://docs.github.com/en/actions/learn-github-actions/understanding-github-actions)
+- [Digital Ocean](https://www.digitalocean.com/)
+- [Docker](https://www.docker.com/)
+- [Microservices](https://cloud.google.com/learn/what-is-microservices-architecture)
